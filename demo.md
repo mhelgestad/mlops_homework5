@@ -35,4 +35,5 @@ It holds an index binary file, and a knowledge base pickle file.
 
 ## Pytest
 I added three total pytests to the project, below you can see how to run them and that they are all passing.
+I used the MockerFixture to mock functions outside the function I was trying to test. I created mock requests/responses and asserted against those.
 ![pytest](./images/pytest.png)
