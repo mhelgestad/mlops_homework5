@@ -2,6 +2,7 @@ fastapi
 uvicorn
 pydantic
 pytest
+pytest-mock
 httpx
 sentence-transformers
 pandas

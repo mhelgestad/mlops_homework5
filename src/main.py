@@ -11,8 +11,10 @@ app = FastAPI(
     version="1.0.0",
 )
 
+
 @app.get("/")
 async def redirect_to_docs():
     return RedirectResponse(url="/docs")
+
 
 app.include_router(query.router)
